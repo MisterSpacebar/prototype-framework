@@ -38,7 +38,7 @@ function jsonGrab(queryURL){
         url: gifURL,
         method: "GET"
     }).then(function(response){
-        jsonData = response.data;
+        jsonData = response;
     });
         // --- outputs JSON data so there's no need to reuse code
     return jsonData;
